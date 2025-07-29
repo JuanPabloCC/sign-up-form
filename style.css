@@ -88,3 +88,8 @@ body {
 label {
     font-size: calc(var(--custom-font-size) - 0.5rem);
 }
+
+form, div.submit-container {
+    border-top: solid 1px;
+    padding-top: 20px;
+}
