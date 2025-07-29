@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('font/coolvetica/Coolvetica-Regular.woff2') format('woff2'),
+        url('font/coolvetica/Coolvetica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('font/coolvetica/Coolvetica-Italic.woff2') format('woff2'),
+        url('font/coolvetica/Coolvetica-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('font/coolvetica/Coolvetica-HeavyComp.woff2') format('woff2'),
+        url('font/coolvetica/Coolvetica-HeavyComp.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
