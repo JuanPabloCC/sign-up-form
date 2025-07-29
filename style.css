@@ -38,4 +38,9 @@ body {
 
 .form-container{
     background-color: white;
+    flex-grow: 1;
+}
+
+.side-bar{
+    flex-grow: 1;
 }
