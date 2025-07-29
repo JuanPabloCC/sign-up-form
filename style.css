@@ -33,6 +33,7 @@ body {
 
 .main-div{
     display: flex;
+    height: 100vh;
 }
 
 .form-container{
