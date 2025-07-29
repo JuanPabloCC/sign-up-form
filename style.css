@@ -29,3 +29,8 @@ body {
     background-image: url("img/alessandro-sacchi-NUFnfYd09iI-unsplash.jpg");
     background-size: 100vw 100vh;
 }
+
+.main-div{
+    display: flex;
+}
+
