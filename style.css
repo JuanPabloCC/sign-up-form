@@ -100,7 +100,7 @@ form, div.submit-container {
     justify-content: space-between;
     align-items: center;
     color: var(--custom-font-color);
-    padding: var(--custom-padding);
+    /* padding: var(--custom-padding); */
     padding-top: calc(var(--custom-padding) * 5);
     text-align: center;
 }
@@ -119,4 +119,11 @@ div.description-container>p{
     padding: calc(var(--custom-padding)*0.3) calc(var(--custom-padding)*0.8);
     border-radius: 10px;
     border: 1px solid ;
+}
+
+div.banner {
+    font-size: calc(var(--custom-font-size)*3);
+    background-color: rgb(0 0 0 / 0.5);
+    width: 100%;
+    padding: calc(var(--custom-padding)*1.5);
 }
