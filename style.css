@@ -56,6 +56,7 @@
     --custom-font-size: 1.6rem;
     --custom-padding: 2rem;
     --custom-font-color: #FAF9F6;
+    --custom-font-color-2: rgb(66, 75, 85);
 }
 
 label {
@@ -66,6 +67,7 @@ body {
     margin: 0px;
     font-size: var(--custom-font-size);
     font-family: "Funnel Display";
+    color: var(--custom-font-color-2);
 }
 
 input, label {
