@@ -94,7 +94,7 @@ form, div.submit-container {
 .form-container{
     background-color: var(--custom-font-color);
     flex-grow: 2;
-    padding: var(--custom-padding);
+    padding: calc(var(--custom-padding)*2);
 }
 
 .side-bar{
@@ -114,12 +114,17 @@ div.input-container {
     gap: calc(var(--custom-padding)*2);
 }
 
-div.description-container>p{
+legend, div.description-container>p{
     font-weight: 600;
 }
 
+div.description-container > p{
+    font-size: calc(var(--custom-font-size)*1.2);
+}
+
 .submit-btn {
-    font-size: var(--custom-font-size);
+    font-size: calc(var(--custom-font-size) - 0.5rem);
+    font-weight: bold;
     padding: calc(var(--custom-padding)*0.3) calc(var(--custom-padding)*0.8);
     border-radius: 10px;
     border: none;
@@ -141,7 +146,7 @@ a {
 }
 
 .submit-btn:hover{
-    background-color: rgba(252, 137, 13, 0.638);
+    background-color: rgba(252, 137, 13, 0.6);
 }
 
 div.img-credit {
