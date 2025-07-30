@@ -141,3 +141,8 @@ a {
 .submit-btn:hover{
     background-color: rgba(252, 137, 13, 0.638);
 }
+
+div.img-credit {
+    font-size: calc(var(--custom-font-size)*0.7);
+    padding-bottom: calc(var(--custom-padding)*0.5);
+}
