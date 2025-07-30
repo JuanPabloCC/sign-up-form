@@ -55,6 +55,11 @@
 :root {
     --custom-font-size: 1.6rem;
     --custom-padding: 2rem;
+    --custom-font-color: #FAF9F6;
+}
+
+label {
+    font-size: calc(var(--custom-font-size) - 0.5rem);
 }
 
 body {
@@ -63,15 +68,27 @@ body {
     font-family: "Funnel Display";
 }
 
+input, label {
+    display: block;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+form, div.submit-container {
+    border-top: solid 1px;
+    padding-top: var(--custom-padding);
+}
 .main-div{
     background-image: url("img/alessandro-sacchi-NUFnfYd09iI-unsplash.jpg");
     background-size: auto 100%;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .form-container{
-    background-color: #FAF9F6;
+    background-color: var(--custom-font-color);
     flex-grow: 2;
     padding: var(--custom-padding);
 }
@@ -82,18 +99,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    position: relative;
+    color: var(--custom-font-color);
     padding: var(--custom-padding);
-    padding-top: calc(var(--custom-padding)*5);
+    padding-top: calc(var(--custom-padding) * 5);
 }
 
-
-label {
-    font-size: calc(var(--custom-font-size) - 0.5rem);
+div.input-container {
+    display: flex;
+    gap: 80px;
 }
 
-form, div.submit-container {
-    border-top: solid 1px;
-    padding-top: var(--custom-padding);
-}
