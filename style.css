@@ -73,7 +73,7 @@ input, label {
 }
 
 input {
-    margin-bottom: 30px;
+    margin-bottom: var(--custom-padding);
 }
 
 form, div.submit-container {
@@ -102,10 +102,14 @@ form, div.submit-container {
     color: var(--custom-font-color);
     padding: var(--custom-padding);
     padding-top: calc(var(--custom-padding) * 5);
+    text-align: center;
 }
 
 div.input-container {
     display: flex;
-    gap: 80px;
+    gap: calc(var(--custom-padding)*2);
 }
 
+div.description-container>p{
+    font-weight: 600;
+}
