@@ -127,3 +127,8 @@ div.banner {
     width: 100%;
     padding: calc(var(--custom-padding)*1.5);
 }
+
+a {
+    text-decoration: none;
+    color: rgb(252, 136, 13)
+}
