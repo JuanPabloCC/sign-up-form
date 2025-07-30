@@ -79,7 +79,9 @@ input {
 form, div.submit-container {
     border-top: solid 1px;
     padding-top: var(--custom-padding);
+    
 }
+
 .main-div{
     background-image: url("img/alessandro-sacchi-NUFnfYd09iI-unsplash.jpg");
     background-size: auto 100%;
@@ -118,7 +120,10 @@ div.description-container>p{
     font-size: var(--custom-font-size);
     padding: calc(var(--custom-padding)*0.3) calc(var(--custom-padding)*0.8);
     border-radius: 10px;
-    border: 1px solid ;
+    border: none;
+    background-color: rgb(252, 136, 13);
+    box-shadow: 0 4px 2px -2px gray;
+    color:#FAF9F6;
 }
 
 div.banner {
@@ -131,4 +136,8 @@ div.banner {
 a {
     text-decoration: none;
     color: rgb(252, 136, 13)
+}
+
+.submit-btn:hover{
+    background-color: rgba(252, 137, 13, 0.638);
 }
