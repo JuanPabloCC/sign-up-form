@@ -113,3 +113,10 @@ div.input-container {
 div.description-container>p{
     font-weight: 600;
 }
+
+.submit-btn {
+    font-size: var(--custom-font-size);
+    padding: calc(var(--custom-padding)*0.3) calc(var(--custom-padding)*0.8);
+    border-radius: 10px;
+    border: 1px solid ;
+}
