@@ -77,6 +77,8 @@ input, label {
 input {
     outline: none;
     margin-bottom: var(--custom-padding);
+    height: 2rem;
+    width: 20rem;
 }
 
 form, div.submit-container {
@@ -157,11 +159,10 @@ div.img-credit {
 }
 
 input:focus {
-    border: 1px solid #8BC34A;
+    border: 1px solid blue;
     box-shadow: 0 4px 2px -2px gray;
 }
 
 input:invalid {
     border: 1px solid red;
-    box-shadow: 0 4px 2px -2px gray;
 }
