@@ -75,6 +75,7 @@ input, label {
 }
 
 input {
+    outline: none;
     margin-bottom: var(--custom-padding);
 }
 
@@ -153,4 +154,14 @@ a {
 div.img-credit {
     font-size: calc(var(--custom-font-size)*0.7);
     padding-bottom: calc(var(--custom-padding)*0.5);
+}
+
+input:focus {
+    border: 1px solid #8BC34A;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+input:invalid {
+    border: 1px solid red;
+    box-shadow: 0 4px 2px -2px gray;
 }
